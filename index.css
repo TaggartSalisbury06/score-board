@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Cursed';
+  src: url('CursedTimerULiL.woff');
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+  margin: 0;
+  background: #1F2937;
+  font-family: 'Cursed';
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.team{
+font-size: 40px;      
+}
+
+#home-el, #guest-el {
+  color: red;
+  background: black;
+  font-size: 90px;
+}
+
+button {
+  font-size: 16px;
+  background: #1F2937;
+  border: 2px solid #F9FAFB;
+  border-radius: 5px;
+  color: #F9FAFB;
+}
